@@ -20,9 +20,9 @@ If you would want to install and run this project on your local machine follow t
 ```
 git clone https://github.com/wambuirahab/Delani-Studio.git
 ```
-2. Navigate to project folder
+2. Navigate to desktop folder
 ```
-cd independent-project-wk2
+cd Delani-Studio
 ```
 3. If you are using Linux install vs code with the below command or follow instructions found [here](https://code.visualstudio.com/docs/setup/linux)
 ```
