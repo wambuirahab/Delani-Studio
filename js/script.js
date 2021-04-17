@@ -1,7 +1,11 @@
 $(document).ready(function (e) {
     $('.col-sm-4').mouseover(function () {
-        $('.Image-Overlay', this).show();
-    })
+        $('.myhover', this).show();
+        $('.overlay', this).show()
+    }).mouseout(function () {
+        $('.myhover', this).hide();
+        $('.overlay', this).hide()
+    });
 
     $('#design').click(function () {
         $('#design-showing').css('display', 'block');

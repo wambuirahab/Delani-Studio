@@ -12,25 +12,63 @@ html, body {
 }
 
 .myhover {
-    background-color: #fff;
-    position: absolute;
-    height: 100%;
     width: 100%;
-    overflow: hidden;
-    top: 0;
-    /* left: 0; */
-    display: none;
+    height: 100%;
+    background-color: #fff;
     z-index: 100;
     opacity: 0.5;
-}
-
-.Image-Overlay {
-    width: 284px;
-    height: 177px;
-    background-color: #4baad3;
-    z-index: 100;
-    opacity: 1;
     display: none;
     position: absolute;
     top: 0;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+}
+
+.contact-us {
+    /* The image used */
+    background-image: url("../images/backgrounds/c_image.jpg");
+    min-height: 380px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.intro-bg {
+    /* The image used */
+    background-image: url("../images/backgrounds/h_img.jpg");
+    min-height: 380px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.about-us-bg {
+    /* The image used */
+    background-image: url("../images/backgrounds/s_image.jpg");
+    min-height: 380px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.form {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 100%;
+    padding: 16px;
+    background-color: transparent;
+}
+
+.intro{
+    text-align: center;
 }
