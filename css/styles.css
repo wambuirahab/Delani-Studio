@@ -10,3 +10,27 @@ html, body {
 .col-md-4 {
     text-align: center;
 }
+
+.myhover {
+    background-color: #fff;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+    /* left: 0; */
+    display: none;
+    z-index: 100;
+    opacity: 0.5;
+}
+
+.Image-Overlay {
+    width: 284px;
+    height: 177px;
+    background-color: #4baad3;
+    z-index: 100;
+    opacity: 1;
+    display: none;
+    position: absolute;
+    top: 0;
+}
