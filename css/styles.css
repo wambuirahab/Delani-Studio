@@ -1,7 +1,12 @@
+html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 .hide {
     display: none;
 }
 
-.col-md-4{
+.col-md-4 {
     text-align: center;
 }
